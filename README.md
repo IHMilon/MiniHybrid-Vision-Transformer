@@ -1,8 +1,6 @@
 # MiniHybrid-Vision-Transformer
 A 0.6M parameter Hybrid CNN-Transformer model achieving 94% accuracy on EuroSAT through a novel channel splitting attention mechanism.
 
-![Model Architecture]([./assets/architecture.png](https://github.com/IHMilon/MiniHybrid-Vision-Transformer/blob/main/Diagram.jpg)
-
 ### Architectural Specifications:
 * **Backbone:** 6 MBConv Blocks progressively reducing spatial dimensions to $8 × 8$.
 * **Feature Dimension:** 150 Channels.
